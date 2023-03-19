@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif!important;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+.background{
+    background-image: url("./img/bgmovie.jpg");
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.backgroundOverlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.6);
+}
+.ghe{
+    border: 3px solid orange;
+    width: 45px;
+    height: 35px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.rowNumber{
+    font-size: 25px!important;
+    width: 45px;
+    height: 35px;
+    background: none;
+    border:none;
+    
+    color: yellow;
+    
+}
+.firstChar{
+    color: yellow;
+    font-size: 35px;
+    margin-right: 15px;
+
+}
+
+.screen{
+    border-bottom: 30px solid rgb(255, 159, 95);
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+    font-size: 25px;
+    color: #fff;
+}
+
+
+.gheDuocChon {
+    border: 3px solid orange;
+    background: orange;
+    color: #000;
+    cursor: no-drop !important;
+    border-radius: 5px;
+    width: 45px;
+    height: 35px;
+
+}
+
+.gheDangChon {
+    background: rgb(109, 238, 109);
+    border: 3px solid rgb(109, 238, 109);
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 45px;
+    height: 35px;
+
+}
