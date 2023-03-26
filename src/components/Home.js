@@ -30,8 +30,8 @@ export default class Home extends Component {
         }}>
             <div className='row'>
             <div className='col-lg-8'>
-            <h3 className='text-center text-warning mt-2'>ĐẶT VÉ XEM PHIM TẠI CYBERLEARN.VN</h3>
-            <h5 className='text-center text-light mt-3'>Màn Hình</h5>
+            <h4 className='text-center text-warning mt-2'>ĐẶT VÉ XEM PHIM TẠI CYBERLEARN.VN</h4>
+            <h5 className='text-center text-light mt-2'>Màn Hình</h5>
             <div className='screen'></div>
             {this.renderHangGhe()}
            
